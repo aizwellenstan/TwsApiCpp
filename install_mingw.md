@@ -1,0 +1,1 @@
+# use Adminstation to run install_mingw.bat
