@@ -27,7 +27,7 @@ if not exist "%zip_file%" (
 )
 
 echo Extracting files to %unzip_path%...
-@REM "%SEVENZIP_EXE%" x "%zip_file%" -o"%unzip_path%"
+"%SEVENZIP_EXE%" x "%zip_file%" -o"%unzip_path%"
 
 echo %unzip_path%\mingw64\bin
 setx PATH "%unzip_path%\mingw64\bin;%PATH%" /M
